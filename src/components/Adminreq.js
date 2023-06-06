@@ -41,22 +41,18 @@ function Adminreq() {
 
   return (
     <div
-      className="pt-5"
-      style={{
-        backgroundImage:
-          "linear-gradient(to right top, #ba538d, #ad5b9c, #9c63a9, #896bb2, #7572b7, #637dc0, #4f87c5, #3a90c7, #21a0cc, #1aafcc, #34bdc8, #55cac2)",
-      }}
+      className="admin_img"
     >
       <div className=" vh-100">
-        <h1 className="mt-5 pt-5 text-center text-white fw-bold">
-          View Pending Requests
+        <h1 className="mt-5 pt-5 text-center text-Grey fw-bold">
+          PENDING REQUESTS
         </h1>
         <table
           className="table table-striped table-secondary mt-5 p-5 m-auto"
           style={{ width: "90%" }}
         >
           <thead>
-            <tr className="fs-4">
+            <tr className="fs-6">
               <th scope="col">Request ID</th>
               <th scope="col">Name</th>
               <th scope="col">Email</th>
@@ -72,7 +68,7 @@ function Adminreq() {
             {requests.length > 0 ? (
               requests.map((item) => <Admincard request={item} />)
             ) : (
-              <h2 className="text-center m-5 p-5">No request cards</h2>
+              <h2 className="text-center m-5 p-5">No Active Requests</h2>
             )}
           </tbody>
         </table>

@@ -1,3 +1,4 @@
+import { left } from "@popperjs/core";
 import React from "react";
 import { Link } from "react-router-dom";
 function Adminnav() {
@@ -5,13 +6,22 @@ function Adminnav() {
     sessionStorage.removeItem("admin");
     window.location = "/";
   };
+
+  const mystyle = {
+    color: "#FF0000",
+    padding: "10px",
+    fontFamily: "Arial",
+    marginLeft: "-100px",
+    alignContent: left
+  };
+
   return (
     <div>
       <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top p-2">
         <div class="container">
-          <h3 class="navbar-brand text-warning font-weight-bold">
-            ZEROWASTE:-
-            <span className="text-white fs-3 ">Admin Panel</span>
+          <h3 style={mystyle}>
+            Z E R O &nbsp; W A S T E &nbsp;
+            <span className="text-white fs-3 ">(Admin)</span>
           </h3>
 
           <button
@@ -49,7 +59,7 @@ function Adminnav() {
                   onClick={logoutAdmin}
                   type="submit"
                 >
-                  &nbsp;&nbsp;LOGOUT&nbsp;&nbsp;
+                  &nbsp;&nbsp;LOG OUT&nbsp;&nbsp;
                 </button>
               </li>
             </ul>

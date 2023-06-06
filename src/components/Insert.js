@@ -118,26 +118,22 @@ const Insert = () => {
   };
   return (
     <div
-      style={{
-        backgroundImage:
-          "linear-gradient(to right top, #019904, #00971d, #00942a, #009235, #008f3e)",
-      }}
-      className="mt-5 min-vh-100 pb-5"
+      className="admin_img"
     >
       <div id="now" className="mt-5 p-2">
-        <h5 className="text-center text-white display-4 fw-bold mt-5 mb-5 pt-5">
+        <h5 className="text-center text-black display-4 fw-bold mt-5 mb-5 pt-5">
           Donate Plastic and E-waste
         </h5>
 
         <form className="row g-3 w-50 m-auto bg-light p-5 fs-5">
           <div className="col-md-12 mb-3">
-            <label for="name" className="form-label fs-4">
+            <label for="name" className="form-label fs-5">
               Name :-
             </label>
             <input
               style={{ border: "0px none" }}
               type="text"
-              className=" bg-light fs-3 fw-bold "
+              className=" bg-light fs-5 "
               id="name"
               name="name"
               value={uname}
@@ -146,13 +142,13 @@ const Insert = () => {
           </div>
 
           <div className="col-md-12 mb-3">
-            <label for="email" className="form-label fs-4">
+            <label for="email" className="form-label fs-5">
               Email :-
             </label>
             <input
               type="email"
               style={{ border: "0px none" }}
-              className="bg-light fs-3 fw-bold "
+              className="bg-light fs-5 "
               id="email"
               name="email"
               value={uemail}
@@ -168,7 +164,7 @@ const Insert = () => {
               type="text"
               className="form-control"
               id="address"
-              placeholder="Building no or Bunglow no./Apartment/Locality/Road or Landmark-Zipcode"
+              placeholder="Enter your address"
               name="address"
               value={uaddress}
               onFocus={clearError}
@@ -185,7 +181,6 @@ const Insert = () => {
             <select
               id="city"
               className="form-select"
-              id="city"
               name="city"
               value={ucity}
               onFocus={clearError}

@@ -48,7 +48,6 @@ function Adminusercard({ user }) {
       <td>{user.city}</td>
       <td>{user.phone}</td>
       <td>{user.email}</td>
-      <td>{user.password}</td>
       <td>{user.securityQues}</td>
       <td>{user.securityAns}</td>
       <td>{user.admin == true ? "Yes" : "No"}</td>

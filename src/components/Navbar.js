@@ -18,7 +18,12 @@ function Navbar() {
             class="navbar-brand text-warning fs-3 font-weight-bold ps-5"
             to="/home"
           >
-            ETech Recyclers
+            <h4
+              className="text-center mb-3"
+              style={{ color: "#FF0000" }}
+            >
+              Z E R O &nbsp; W A S T E
+            </h4>
           </Link>
 
           <button
@@ -32,31 +37,31 @@ function Navbar() {
 
           <div class="collapse navbar-collapse text-center" id="collapsenavbar">
             <ul class="navbar-nav ml-auto ">
-              <li class="nav-item  ms-4 mt-2 fs-5">
+              <li class="nav-item  ms-4 mt-2 fs-6">
                 <Link to="/home" className="nav-link text-white ">
                   HOME
                 </Link>
               </li>
 
-              <li class="nav-item  ms-4 mt-2 fs-5">
+              <li class="nav-item  ms-4 mt-2 fs-6">
                 <Link to="/donate" className="nav-link text-white ">
                   DONATE
                 </Link>
               </li>
 
-              <li class="nav-item ms-4 mt-2 fs-5">
+              <li class="nav-item ms-4 mt-2 fs-6">
                 <Link to="/view" class="nav-link text-white">
                   PENDING DONATIONS
                 </Link>
               </li>
 
-              <li class="nav-item  ms-4 mt-2 fs-5">
+              <li class="nav-item  ms-4 mt-2 fs-6">
                 <Link to="/donations" class="nav-link text-white">
                   VIEW DONATIONS
                 </Link>
               </li>
 
-              <li class="nav-item  ms-4 mt-2 fs-5">
+              <li class="nav-item  ms-4 mt-2 fs-6">
                 <Link to="/profile" class="nav-link text-white">
                   PROFILE
                 </Link>
@@ -73,11 +78,11 @@ function Navbar() {
           </div>
         </div>
         <div className="ps-3 pe-5 text-center">
-          <h5 className="text-white ">
+          <h6 className="text-white ">
             Welcome
             <br />
             <span>{name}</span>
-          </h5>
+          </h6>
         </div>
       </nav>
     </div>

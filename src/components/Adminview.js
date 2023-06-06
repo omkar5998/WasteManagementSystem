@@ -33,22 +33,18 @@ function Adminview() {
   console.log(requests);
   return (
     <div
-      className="min-vh-100"
-      style={{
-        backgroundImage:
-          "linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12)",
-      }}
+      className="admin_img "
     >
-      <div class="container-fluid pt-5 ">
-        <h1 className="text-center text-white mt-5 pt-5">
-          View Collected Donations
+      <div className=" vh-100">
+        <h1 className="mt-5 pt-5 text-center text-Grey fw-bold">
+          COLLECTED DONATIONS
         </h1>
         <table
-          className="table table-striped table-light  m-auto mt-5 "
+          className="table table-striped table-secondary mt-5 p-5 m-auto"
           style={{ width: "90%" }}
         >
           <thead>
-            <tr className="fs-4">
+            <tr className="fs-6">
               <th scope="col">Donation ID</th>
               <th scope="col">Name</th>
               <th scope="col">Email ID</th>

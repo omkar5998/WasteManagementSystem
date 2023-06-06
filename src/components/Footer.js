@@ -10,12 +10,11 @@ function Footer() {
           <div class="row text-center text-md-left">
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
               <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
-                ZEROWASTE
+                Z E R O &nbsp;W A S T E
               </h5>
               <p>
                 We collect Plastic and E-waste from various societies and nearby
-                localities.We are currently working only in four cities for now
-                i.e Mumbai,Hyderabad,Pune and Banglore
+                localities.
               </p>
             </div>
 
@@ -66,16 +65,16 @@ function Footer() {
                 Contact
               </h5>
               <p>
-                <i class="fa fa-home mr-3"></i>Bandra, Mumbai
+                <i class="fa fa-home mr-3"></i>Pune, Maharashtra
               </p>
               <p>
-                <i class="fa fa-envelope mr-3"></i>zerowaste@gmail.com
+                <i class="fa fa-envelope mr-3"></i>info@zerowaste.com
               </p>
               <p>
-                <i class="fa fa-phone mr-3"></i>+91 9860649457
+                <i class="fa fa-phone mr-3"></i>+91 1800 345 780
               </p>
               <p>
-                <i class="fa fa-phone mr-3"></i>+91 8788874569
+                <i class="fa fa-phone mr-3"></i>+91 1800 345 781
               </p>
             </div>
           </div>
@@ -85,9 +84,9 @@ function Footer() {
           <div class="row align-items-center">
             <div class="col-md-7 col-lg-12 m-auto">
               <p>
-                Copyright ©2020 All rights reserved by:
+                Copyright ©2023 All rights reserved by:
                 <a href="#">
-                  <strong class="text-warning"> 11th Hours MET-MUMBAI </strong>
+                  <strong class="text-warning"> Zero Waste pvt Inc </strong>
                 </a>
               </p>
             </div>

@@ -13,11 +13,7 @@ function Profile() {
     }
   }, []);
   return (
-    <div
-      style={{
-        backgroundImage:
-          "linear-gradient(to right top, #208322, #1b732c, #1c6332, #205333, #254332)",
-      }}
+    <div class="login-img"
     >
       <div class="container vh-100 w-50">
         <div class="row d-flex justify-content-center mt-4">
@@ -36,7 +32,7 @@ function Profile() {
             <div class=" z-depth-3">
               <div class="col-sm-12 bg-white rounded-right pb-3">
                 <h3 class=" p-2 text-center font-weight-bold">
-                  <b>PROFILE CARD</b>
+                  <b style={{ color: "red" }}>PROFILE CARD</b>
                 </h3>
                 <hr class="badge-primary mt-0 " />
                 <div class="row">
@@ -58,7 +54,7 @@ function Profile() {
                 <div class="row">
                   <div class="col-sm-12">
                     <h3 class="font-weight-bold">
-                      City:{sess != null ? userdata.city : "city"}
+                      City : {sess != null ? userdata.city : "city"}
                     </h3>
                   </div>
                 </div>

@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "../css/login.css";
-import loginimg from "../images/login.jpg";
+import loginimg from "../images/waste_management1.jpg";
 import { Link } from "react-router-dom";
 import base_url from "../api/bootapi";
 import axios from "axios";
 import swal from "sweetalert2";
 
-function Login() {
+function Login1() {
   useEffect(() => {
     document.title = "Login";
   }, []);
@@ -70,17 +70,17 @@ function Login() {
             <div className="col-lg-7">
               <div className="m-auto w-75 pt-5 pb-5 align-self-center ">
                 <h1
-                  className="text-center fw-bold mb-3"
-                  style={{ color: "#ba8b00" }}
+                  className="text-center fw-bold mb-3 fs-3"
+                  style={{ color: "#FF0000" }}
                 >
-                  ZeroWaste
+                  Z E R O &nbsp; W A S T E
                 </h1>
-                <h1 className="text-center display-4">Login</h1>
+                <h1 className="text-center display-8">LOGIN</h1>
 
                 <form onSubmit={handlerForm} className="row g-3 mt-3">
                   <div className="col-md-12">
                     <label for="email" class="form-label fs-5">
-                      Email-ID
+                      Email
                     </label>
                     <input
                       type="email"
@@ -137,8 +137,8 @@ function Login() {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 
-export default Login;
+export default Login1;

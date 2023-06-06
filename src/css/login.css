@@ -1,11 +1,19 @@
 .login-img {
-  background-image: url("../images/login-bg.jpg");
+  background-image: url("../images/waste1.jpg");
   background-repeat: none;
   background-size: cover;
 }
+
+.admin_img {
+  background-image: url("../images/waste.jpg");
+  background-repeat: none;
+  background-size: cover;
+}
+
 .log {
   background-color: #f8f9facf;
 }
+
 .log-img {
   height: 100%;
   width: 100%;

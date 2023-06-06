@@ -44,18 +44,14 @@ const Donations = () => {
 
   return (
     <div
-      className="p-5 "
-      style={{
-        backgroundImage:
-          "linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12)",
-      }}
+      className="login-img"
     >
       <h1 className="text-center text-white display-3 pt-5 mt-5 fw-bold ">
         Donations
       </h1>
       <table className="table table-striped table-dark  m-auto mt-5 mb-5">
         <thead>
-          <tr className="fs-4">
+          <tr className="fs-6">
             <th scope="col">Donation ID</th>
             <th scope="col">Plastic Donated</th>
             <th scope="col">E-waste Donated</th>
