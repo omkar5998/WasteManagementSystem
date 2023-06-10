@@ -191,6 +191,11 @@ const Insert = () => {
               <option value="Pune">Pune</option>
               <option value="Hyderabad">Hyderabad</option>
               <option value="Banglore">Banglore</option>
+              <option value="Nagpur">Nagpur</option>
+              <option value="Chennai">Chennai</option>
+              <option value="Kolkata">Kolkata</option>
+              <option value="Noida">Noida</option>
+              <option value="Delhi">Delhi</option>
             </select>
             <div class="invalid-feedback fs-6 fw-bold">{ecity}</div>
           </div>
